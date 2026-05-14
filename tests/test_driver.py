@@ -8,7 +8,6 @@ import tempfile
 from mintapi import constants
 from unittest.mock import patch, DEFAULT
 
-
 accounts_example = {
     "Account": [
         {
