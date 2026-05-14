@@ -8,7 +8,6 @@ import mintapi.signIn
 
 from tests.test_driver import category_example
 
-
 USERNAME = os.environ.get("MINTAPI_USERNAME", None)
 PASSWORD = os.environ.get("MINTAPI_PASSWORD", None)
 HEADLESS = os.environ.get("MINTAPI_HEADLESS", "True") in [
